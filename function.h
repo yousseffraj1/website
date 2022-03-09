@@ -14,7 +14,7 @@ typedef struct
    SDL_Rect posbonhomme; 
 }minimap;
 
-
+//*affichage 
 void afficherminimap (minimap m, SDL_Surface * screen);
 void MAJMinimap(SDL_Rect posJoueur , minimap * m, SDL_Rect camera, int redimensionnement);
 void Liberer (minimap * m);
